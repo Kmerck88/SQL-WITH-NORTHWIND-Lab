@@ -34,9 +34,9 @@ Select firstname
 From Employees 
 Where ReportsTo is null 
 
-Select Employeeid 
+Select FirstName
 From Employees
-Where FirstName = 'Andrew';
+Where ReportsTo = '2';
 
 
 
